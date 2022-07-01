@@ -1,0 +1,111 @@
+div {
+  border: 2px solid #6d7081;
+  padding: 30px 20px;
+  width: 245px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px #6d7081;
+  background: #9CB4CC;
+  margin: auto;
+  position: relative;
+  height: auto;
+}
+
+input {
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  background: #EFEFEF;
+  border: 0.2px solid #413F42;
+  box-shadow: 2px 2px 1px 1px
+}
+
+#reset {
+  position: relative;
+  left: 144px;
+  width: 60px;
+  height: 30px
+}
+
+.screen {
+  width: 95%;
+  margin: auto;
+  border-radius: 10px;
+  background: white;
+  box-shadow: none;
+}
+
+body {
+  font-weight: bold;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+input:hover {
+  background: #D0C9C0;
+}
+
+.func {
+  background: #f7793e;
+}
+
+.func:hover {
+  background: #F66B0E;
+}
+
+input:active {
+  box-shadow: none;
+  audio: src=url("audio/click.mp3");
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
